@@ -1,0 +1,23 @@
+/* Please use the following format for naming classes and ids
+ * so that there are no conflicts with other style sheets:
+ * .yourpagename__class-name
+ * #yourpagename__id-name
+ * Example: .index__main-section, .index__second-section, .blog-post__second-section
+ * Example: #index__form, #index__top, #blog-post__top */
+
+ .panel-group {
+  margin-top: 20px;
+ }
+
+ .panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}

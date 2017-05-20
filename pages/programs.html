@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../styles/programs.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="../nav.js"></script>
@@ -17,6 +18,7 @@
   </nav>
 
   <div class="container-fluid text-center">
+
     <div id="programs__carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#programs__carousel" data-slide-to="0" class="active"></li>
@@ -54,199 +56,120 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
-    <!-- ./carousel -->
+    </div> <!-- ./carousel -->
 
-
-    <h2> Here's What We Offer</h2>
-    <div class="row">
-      <div class="col-md-5">
-        <img style="width: 100%" src="../images/img-placeholder.png">
-      </div>
-      <div class="col-md-7">
-        <p>
-          We offer..Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices porta nibh, at elementum ex dictum vitae. Maecenas ullamcorper pharetra quam, non bibendum sapien accumsan ac. In eu odio sed sapien mollis rutrum ac sodales ligula. Fusce ut augue est. Ut bibendum purus non justo semper, vitae suscipit velit sagittis. Fusce consectetur lobortis urna, non molestie sem condimentum dictum. Curabitur pharetra, orci et maximus condimentum, libero metus vulputate diam, vel egestas nunc nisl vel lectus. Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem. Suspendisse tempus massa magna, vitae rhoncus dui mollis id. Sed vestibulum lorem massa, iaculis bibendum ipsum ullamcorper ut. Nullam malesuada tempus neque at convallis. Mauris auctor enim at dolor aliquet, ac aliquam est tincidunt.
-        </p>
-        <p>
-          Cras imperdiet velit aliquet ullamcorper ullamcorper. Cras sed felis quis lorem ullamcorper imperdiet auctor eu lorem. Nunc commodo orci ac felis sollicitudin vestibulum. Morbi egestas eu enim et imperdiet. Mauris viverra non magna ut congue. Quisque in maximus sapien, ac aliquam neque. Pellentesque bibendum suscipit libero nec auctor. Curabitur hendrerit urna magna, eget pulvinar odio euismod sit amet. Suspendisse at nibh non sapien sodales iaculis sit amet elementum libero.
-        </p>
-      </div>
-    </div>
-
-    <div id="programs__list" role="tablist" aria-multiselectable="true" class="text-left">
-
-      <div>
-        <div role="tab" id="programs__bronx-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__bronx">
-                <h2>Bronx Loaf Conference</h2>
-              </a>
-            </div>
-          </div>
+    <div id="programs__blurb">
+      <h2> Here's What We Offer</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <img style="width: 100%" src="../images/img-placeholder.png">
         </div>
-        <div id="programs__bronx" class="collapse" role="tabpanel" aria-labelledby="programs__bronx-heading">
-          <div>
-            <p>
-              Nunc commodo orci ac felis sollicitudin vestibulum. Morbi egestas eu enim et imperdiet. Mauris viverra non magna ut congue. Quisque in maximus sapien, ac aliquam neque. Pellentesque bibendum suscipit libero nec auctor.
-            </p>
-            <div id="programs__address">
-              <div id="programs__leftaddress" class="col-md-6">
-                <p><strong>Main Address:</strong> 106 rue Danton</p>
-                <p><strong>Delivery Address:</strong> 106 rue Danton</p>
-                <p><strong>Parking Address:</strong> 106 rue Danton</p>
-              </div>
-              <div id="programs__rightaddress" class="col-md-6">
-                <p><strong>Horaires d'ouvertures:</strong> Curabitur blandit.</p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-              <div class="col-md-12">
-                <p>MAP GOES HERE</p>
-              </div>
-              <div id="programs__caraccess" class="col-md-6">
-                <p><strong>Car Access:</strong></p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-              <div id="programs__publictransport" class="col-md-6">
-                <p><strong>Public transport access:</strong> </p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div role="tab" id="programs__writing-abroad-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__writing-abroad">
-                <h2>Writing Abroad</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="programs__writing-abroad" class="collapse" role="tabpanel" aria-labelledby="programs__writing-abroad-heading">
-          <div>
-            <p>
-              Nunc commodo orci ac felis sollicitudin vestibulum. Morbi egestas eu enim et imperdiet. Mauris viverra non magna ut congue. Quisque in maximus sapien, ac aliquam neque. Pellentesque bibendum suscipit libero nec auctor.
-            </p>
-            <div id="programs__address">
-              <div id="programs__leftaddress" class="col-md-6">
-                <p><strong>Main Address:</strong> 106 rue Danton</p>
-                <p><strong>Delivery Address:</strong> 106 rue Danton</p>
-                <p><strong>Parking Address:</strong> 106 rue Danton</p>
-              </div>
-              <div id="programs__rightaddress" class="col-md-6">
-                <p><strong>Horaires d'ouvertures:</strong> Curabitur blandit.</p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-              <div class="col-md-12">
-                <p>MAP GOES HERE</p>
-              </div>
-              <div id="programs__caraccess" class="col-md-6">
-                <p><strong>Car Access:</strong></p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-              <div id="programs__publictransport" class="col-md-6">
-                <p><strong>Public transport access:</strong></p>
-                <p>
-                  Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div role="tab" id="programs__journalism-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__journalism">
-                <h2>Student Journalism</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="programs__journalism" class="collapse" role="tabpanel" aria-labelledby="programs__journalism-heading">
-          <div>
-            <p>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div role="tab" id="programs__financial-literacy-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__financial-literacy">
-                <h2>Financial Literacy</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="programs__financial-literacy" class="collapse" role="tabpanel" aria-labelledby="programs__financial-literacy-heading">
-          <div>
-            <p>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-      <div>
-        <div role="tab" id="programs__college-literacy-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__college-literacy">
-                <h2>College Literacy</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="programs__college-literacy" class="collapse" role="tabpanel" aria-labelledby="programs__college-literacy-heading">
-          <div>
-            <p>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div role="tab" id="programs__centers-heading">
-          <div class="row">
-            <div class="col-xs-9">
-              <a data-toggle="collapse" data-target="#programs__centers">
-                <h2>Writing Centers</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="programs__centers" class="collapse" role="tabpanel" aria-labelledby="programs__centers-heading">
-          <div>
-            <p>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </p>
-          </div>
+        <div class="col-md-7">
+          <p>
+            We offer..Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices porta nibh, at elementum ex dictum vitae. Maecenas ullamcorper pharetra quam, non bibendum sapien accumsan ac. In eu odio sed sapien mollis rutrum ac sodales ligula. Fusce ut augue est. Ut bibendum purus non justo semper, vitae suscipit velit sagittis. Fusce consectetur lobortis urna, non molestie sem condimentum dictum. Curabitur pharetra, orci et maximus condimentum, libero metus vulputate diam, vel egestas nunc nisl vel lectus. Vivamus posuere, justo id viverra cursus, metus justo gravida erat, vel gravida leo arcu et nulla. Curabitur nec aliquet sem. Suspendisse tempus massa magna, vitae rhoncus dui mollis id. Sed vestibulum lorem massa, iaculis bibendum ipsum ullamcorper ut. Nullam malesuada tempus neque at convallis. Mauris auctor enim at dolor aliquet, ac aliquam est tincidunt.
+          </p>
+          <p>
+            Cras imperdiet velit aliquet ullamcorper ullamcorper. Cras sed felis quis lorem ullamcorper imperdiet auctor eu lorem. Nunc commodo orci ac felis sollicitudin vestibulum. Morbi egestas eu enim et imperdiet. Mauris viverra non magna ut congue. Quisque in maximus sapien, ac aliquam neque. Pellentesque bibendum suscipit libero nec auctor. Curabitur hendrerit urna magna, eget pulvinar odio euismod sit amet. Suspendisse at nibh non sapien sodales iaculis sit amet elementum libero.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+
+    <div class="panel-group text-left" id="accordion">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              Bronx Loaf Conference
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              Writing Abroad
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Student Journalism
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+              Financial
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+              College Literacy
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+              Writing Centers
+            </a>
+          </h4>
+        </div>
+        <div id="collapseSix" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
 </body>
 
 </html>
