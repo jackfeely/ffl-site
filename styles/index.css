@@ -5,3 +5,52 @@
  * Example: .index__main-section, .index__second-section, .blog-post__second-section
  * Example: #index__form, #index__top, #blog-post__top */
  
+.index__footer {
+	background-color: #ddd;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	color: white;
+}
+
+.index__footer h2 {
+  font-weight: 600;
+}
+
+.index__footer p {
+  margin-bottom: 0px;
+}
+
+.index__p__text {
+  margin: auto;
+  padding-bottom: 5px;
+  color: rgba(85, 85, 85, 0.69);
+  width: 50%;
+  border-bottom: solid rgba(85, 85, 85, 0.69) 1px; 
+}
+
+.index__phone {
+  font-size: 1.3em;
+}
+
+.index__footer a:link{
+  font-size: 1.5em;
+  color: white;
+  font-family: calibri;
+  font-weight: 200;
+}
+
+.index__soc_media i {
+  color: rgba(85, 85, 85, 0.69);
+  font-size: 15px;
+}
+
+.index__soc_media {
+  margin: 0 5px 0 5px;
+}
+
+.index__copyright {
+  background-color: rgba(85, 85, 85, 0.69);
+  margin: 15px 0 0 0;
+  height: 30px;
+  line-height: 30px;
+}
