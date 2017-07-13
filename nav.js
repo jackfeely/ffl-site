@@ -15,16 +15,16 @@ let pagesHtml =
       </ul>
       <ul class="nav navbar-nav navbar-right" >
         <li>
-          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/fdn4letters"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/FoundationforLetters"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/user/Foundation4Letters"><i class="fa fa-youtube" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company-beta/10153470/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </li>
         <li>
           <form class="navbar-form navbar-left">
@@ -59,16 +59,16 @@ let homeHtml =
       </ul>
       <ul class="nav navbar-nav navbar-right" >
         <li>
-          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/fdn4letters"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/FoundationforLetters"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/user/Foundation4Letters"><i class="fa fa-youtube" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company-beta/10153470/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </li>
         <li>
           <form class="navbar-form navbar-left">
